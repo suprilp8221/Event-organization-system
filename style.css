@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* navbar */
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    position: fixed;
+}
+.logo{
+    width: 50%;
+}
+.logo img{
+    width: 20%;
+   margin: 0.1rem;
+}
+.events{
+    width: 40%;
+}
+.events ul{
+    display: flex;
+    margin-left: 10rem;
+}
+.events ul li{
+list-style: none;
+margin: 1rem;
+}
+.events ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.events ul li a:hover{
+  color: #f2c840; 
+}
+.btn{
+    background: grey;
+    color: white;
+    height: 3rem;
+    width:10%;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    border-radius: 15px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover{
+    color: black;
+    background: #f2c840;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.main{
+width: 100%;
+height: 100vh;
+background-image: url("img1.jpg");
+background-size: cover;
+overflow: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.main h1{
+    font-size: 4.5rem;
+    color: white;
+}
+.main p{
+    margin: 0.5rem;
+    font-size: 2.5rem;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content p{
+    font-size: 2.5rem;
+}
+
+.main2{
+width: 70%;
+height: 85vh;
+background-image: url("img2.jpg");
+background-size: cover;
+margin:0 auto;
+overflow: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.main2 h1{
+    font-size: 4.5rem;
+    color: white;
+}
+
+.main2 p{
+    margin: 0.5rem;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.work{
+    width: 60rem;
+    height: 40rem;
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin: 0 auto;
+}
+
+.work p{
+    font-size: 1.5rem;
+    color: black;
+}
+.work h2{
+font-size: 2rem;
+margin: 2rem;
+padding: 1rem;
+}
+
+#user{
+    border: none;
+    background:grey;
+    color: white;
+    font-size: 1.5rem;
+}
+#user:hover{
+    color: #f2c840;
+}

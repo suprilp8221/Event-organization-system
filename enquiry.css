@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* navbar */
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    position: fixed;
+}
+.logo{
+    width: 50%;
+}
+.logo img{
+    width: 20%;
+}
+.events{
+    width: 40%;
+}
+.events ul{
+    display: flex;
+    margin-left: 10rem;
+}
+.events ul li{
+list-style: none;
+margin: 1rem;
+
+}
+.events ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.btn{
+    background: grey;
+    color: white;
+    height: 3rem;
+    width:10%;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    border-radius: 15px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: black;
+    background: #f2c840;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.events ul li a:hover{
+    color: #f2c840;
+}
+/* ******content****** */
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(event-img.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-content h1{
+    font-size: 8rem;
+    color: white;
+}
+.book-heading{
+    display: flex;
+    justify-content: center;
+}
+.booking{
+    height: 55rem;
+    width: 60rem;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 1rem;
+    border-radius: 10px;
+
+}
+.form-name .name{
+    width: 60rem;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: start;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.form-other{
+    margin-left: 1rem;
+}
+.last-name{
+    margin-left: 2rem;
+}
+#first-name{
+    width: 25rem;
+    height: 2rem;
+}
+#last-name{
+    width: 25rem;
+    height: 2rem;
+}
+#email,#phone,#subject{
+    width: 52rem;
+    height: 2rem;
+
+}
+.email,.phone,.subject,.Message{
+    margin-top: 2rem;
+}
+.booking p{
+    font-size: 25px;
+}
+#Message{
+    width: 52rem;
+    height: 7rem;
+}
+.submit{
+    height: 3rem;
+    width: 13rem;
+    background-color: #f2c840;
+    color: black;
+    border: 2px solid black;
+    margin-top:2rem ;
+    margin-left: 1rem;
+    border-radius: 10px;
+
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: #f8df8d;
+}
+
+.event-1{
+    height: 10rem;
+    width: 30rem;
+    border: 1px solid black;
+    background-image: url(event\ 1.jpg);
+    background-size: cover;
+}
+.event-2{
+    height: 10rem;
+    width: 30rem;
+    border: 1px solid black;
+    background-image: url(event\ 2.jpg);
+    background-size: cover;
+}
+.event-3{
+    height: 10rem;
+    width: 30rem;
+    border: 1px solid black;
+    background-image: url(event\ 3.jpg);
+    background-size: cover;
+}
+.main-images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.event-info{
+    height: 41rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.event-info p{
+    font-family: "Style Script", cursive;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/* *******footer********** */
+
+.footer{
+    height: 20rem;
+    width: 100%;
+    background-color: #201a16;
+}
+.contact{
+    color: white;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.s-icons{
+    display: flex;
+    
+}
+.icon{
+    margin-left:45px ;
+    font-size: 2rem;
+}
+.address{
+    color: white;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
